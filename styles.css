@@ -4,7 +4,7 @@
   padding: 0px;
 }
 div {
-	width: 1280px;
+	width: 1980px;
 	height: 50px;
 	background-color: #f2e6ff;
 }
@@ -30,4 +30,7 @@ nav h2{
 	display: inline-block;
 	margin: 10px;
 	color: #5900b3;
+}
+#separate {
+	margin-left: 1175px;
 }
