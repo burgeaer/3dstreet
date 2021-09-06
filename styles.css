@@ -1,7 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 * {
   margin: 0px;
   padding: 0px;
 }
-nav {
+div {
+	width: 1280px;
+	height: 50px;
+	background-color: #f2e6ff;
+}
+nav ul li {
+	list-style: none;
+	font-size: 18px;
+	display: inline-block;
+	padding: 10px;
+	color: #6600cc;
 	
+}
+nav ul li a {
+	font-family: 'Roboto';
+	text-decoration: none;
+}
+nav ul li a:hover {
+	font-family: 'Roboto';
+	text-decoration: none;
+}
+nav h2{
+	font-size: 24px;
+	font-family: 'Roboto';
+	display: inline-block;
+	margin: 10px;
+	color: #5900b3;
 }
