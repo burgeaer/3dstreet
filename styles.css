@@ -1,49 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 * {
   margin: 0px;
   padding: 0px;
 }
 
-div {
-	width: 1902px;
+.container {
+	width: 100vw;
 	height: 50px;
-	background-color: #f2e6ff;
+	background-color: #edebef;
 }
 nav ul li {
 	list-style: none;
 	font-size: 18px;
 	display: inline-block;
 	padding: 10px;
-	color: #6600cc;
+	color: #4B3461;
 	
 }
 nav ul li a {
-	font-family: 'Roboto';
+	font-family: 'Rubik';
 	text-decoration: none;
 }
 nav ul li a:hover {
-	font-family: 'Roboto';
+	font-family: 'Rubik';
 	text-decoration: none;
 }
 nav h2{
 	font-size: 24px;
-	font-family: 'Roboto';
+	font-family: 'Rubik';
 	display: inline-block;
 	margin: 10px;
-	color: #5900b3;
+	color: #4B3461;
 }
 #separate {
 margin-left: 20px;
 }
 input {
-	width: 1000px;
+	width: 50vw;
 	height: 50px;
-	font-family: 'Roboto';
+	font-family: 'Rubik';
 	margin-left: 50px;
 
 }
 #body iframe {
-	width: 1902px;
-	height: 1080px;
+	width: 100vw;
+	height: 100vh;
 	display: block;
 }
+
+
