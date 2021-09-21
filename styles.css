@@ -6,7 +6,7 @@
 
 .container {
 	width: 100%;
-	height: 15%;
+	height: 5%;
 	position: relative;
 	overflow: hidden;
 	background-color: #edebef;
@@ -49,10 +49,7 @@ input {
 
 }
 #body iframe {
-	width: 100%;
-	height: 100%;
-	perspective: 100px;
-	position: absolute;
+	position: fixed;
 	overflow: hidden;
 	display: block;
 }
