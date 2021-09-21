@@ -49,9 +49,41 @@ input {
 
 }
 #body iframe {
+	width: 100%;
+	height: 100%;
 	position: fixed;
 	overflow: hidden;
 	display: block;
 }
-
-
+@media only screen and (max-width: 600px) {
+	#body iframe {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	overflow: hidden;
+	display: block;
+}
+.container {
+    width: 100%;
+	height: 5%;
+	position: fixed;
+	overflow: hidden;
+	background-color: #edebef; 
+ }
+ 
+}
+@media only screen and (max-width:800px) {
+	#body iframe {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	overflow: hidden;
+	display: block;
+}
+	 
+ }
+ 
+}
+ }
+ 
+}
